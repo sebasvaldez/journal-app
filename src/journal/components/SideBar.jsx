@@ -28,7 +28,7 @@ export const SideBar = ({ drawerWidth }) => {
         open
         sx={{
           display: { xs: "block" },
-          "& .MuiDrawer-papaer": {
+          "& .MuiDrawer-paper": {
             boxSizing: "border-box",
             width: drawerWidth,
           },
