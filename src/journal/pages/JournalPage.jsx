@@ -1,11 +1,15 @@
-import { Typography } from "@mui/material"
-import { MailLockOutlined } from "@mui/icons-material"
+import { JournalLayout } from "../layout/JournalLayout";
+import { NOthingSelectedView, NoteView } from "../views/";
+
+
+
 
 export const JournalPage = () => {
   return (
-    <>
-    <Typography variant="h1">JournalPage</Typography>
-    <MailLockOutlined />
-    </>
-  )
-}
+    <JournalLayout>
+      {/* <NOthingSelectedView /> */}
+
+      <NoteView />
+    </JournalLayout>
+  );
+};
